@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -20,7 +19,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.code_flush.snack3e428a08ef0f4eeea4d0005bbee5e53c"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +28,9 @@
       "eas": {
         "projectId": "178d5136-e1a6-44ce-b317-dc04ea43e13c"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
