@@ -27,10 +27,7 @@ export default function App() {
       setTemperature(null);
 
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(
-          city
-        )}&units=metric&appid=ea91de774babc389fdc889d33ac9f999`
-      );
+     "<USE OPEN WEATHER APP API KEY">);
       const data = await response.json();
 
       if (data.cod !== 200) {
